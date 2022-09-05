@@ -1,0 +1,35 @@
+.gpt3__brand {
+	display: grid;
+	grid-template-columns: repeat(5, max-content);
+	justify-content: center;
+	gap: 47px;
+}
+
+.gpt3__brand img {
+	margin: 1rem;
+}
+
+@media screen and (max-width: 1050px) {
+	.gpt3__brand {
+		display: grid;
+		grid-template-columns: repeat(5, max-content);
+		justify-content: center;
+		gap: 0;
+	}
+
+	.gpt3__brand img {
+		margin: 1rem;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.gpt3__brand {
+		display: grid;
+		grid-template-columns: repeat(2, max-content);
+		justify-content: center;
+	}
+
+	.gpt3__brand img {
+		margin: 1rem;
+	}
+}
